@@ -6,7 +6,7 @@ import { Comp } from "./hooks/useReducer";
 export default function App() {
   return (
     <div className="App">
-      <h1>React Hooks</h1>
+      <h1>React Hooks🪝</h1>
       <Comp />
     </div>
   );
