@@ -26,7 +26,7 @@ export const Comp = () => {
 
   return (
     <>
-      <h2>useEffect</h2>
+      <h2>useReducer</h2>
       <h3>count: {Math.max(count, 0)}</h3>
       <div style={{ display: "flex", justifyContent: "center", gap: "3vw" }}>
         <button onClick={() => dispatch({ type: "INCREMENT" })}>
